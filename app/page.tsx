@@ -38,27 +38,34 @@ export default function Portfolio() {
           Third-year Computer Science Engineering student passionate about
           Cyber Security, AI-based security systems, and Full Stack Development.
         </p>
+      <div className="flex gap-4 mt-10 flex-wrap justify-center">
 
-        <div className="flex gap-4 mt-10 flex-wrap justify-center">
+  <a
+    href="https://github.com/bla0007"
+    target="_blank"
+    className="px-6 py-3 bg-cyan-500 text-black rounded-xl font-semibold hover:scale-105 transition"
+  >
+    GitHub
+  </a>
 
-          <a
-            href="https://github.com/bla0007"
-            target="_blank"
-            className="px-6 py-3 bg-cyan-500 text-black rounded-xl font-semibold hover:scale-105 transition"
-          >
-            GitHub
-          </a>
+  <a
+    href="https://linkedin.com/in/dushyantsaini"
+    target="_blank"
+    className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black transition"
+  >
+    LinkedIn
+  </a>
 
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black transition"
-          >
-            LinkedIn
-          </a>
+  <a
+    href="/resume.pdf"
+    download
+    className="px-6 py-3 border border-white/20 rounded-xl hover:border-cyan-400 hover:text-cyan-400 transition"
+  >
+    Download Resume
+  </a>
 
-        </div>
-
+</div>
+      
       </section>
 
       {/* ABOUT */}
