@@ -49,7 +49,7 @@ export default function Portfolio() {
   </a>
 
   <a
-    href="https://linkedin.com/in/dushyantsaini"
+    href="www.linkedin.com/in/dushyant-saini-61740128b"
     target="_blank"
     className="px-6 py-3 border border-cyan-400 text-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black transition"
   >
